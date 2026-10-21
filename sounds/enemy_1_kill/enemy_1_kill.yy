@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"enemy_1_kill",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.6979592,
+  "exportDir":"",
+  "name":"enemy_1_kill",
+  "parent":{
+    "name":"Sound",
+    "path":"folders/Sound.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"enemy_1_kill.MP3",
+  "volume":1.0,
+}

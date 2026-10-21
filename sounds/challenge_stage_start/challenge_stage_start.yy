@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"challenge_stage_start",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.5412245,
+  "exportDir":"",
+  "name":"challenge_stage_start",
+  "parent":{
+    "name":"Sound",
+    "path":"folders/Sound.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"challenge_stage_start.MP3",
+  "volume":1.0,
+}

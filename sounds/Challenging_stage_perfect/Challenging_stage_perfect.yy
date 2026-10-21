@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Challenging_stage_perfect",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":8.124082,
+  "exportDir":"",
+  "name":"Challenging_stage_perfect",
+  "parent":{
+    "name":"Sound",
+    "path":"folders/Sound.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Challenging_stage_perfect.MP3",
+  "volume":1.0,
+}
