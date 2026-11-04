@@ -1,25 +1,21 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 201CE148
-/// @DnDArgument : "var" "points"
-points = 0;
-
-/// @DnDAction : YoYo Games.Common.Variable
-/// @DnDVersion : 1
-/// @DnDHash : 31A85CA3
+/// @DnDHash : 119C6254
 /// @DnDArgument : "expr" "3"
 /// @DnDArgument : "var" "lives"
 lives = 3;
 
-/// @DnDAction : YoYo Games.Common.If_Expression
+/// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
-/// @DnDHash : 75163B3F
-/// @DnDArgument : "expr" "sprite_exists(enemie1) &&  sprite_exists(enemie2) && sprite_exists(Sprite7) && sprite_exists(Sprite9)"
-/// @DnDArgument : "not" "1"
-if(!(sprite_exists(enemie1) &&  sprite_exists(enemie2) && sprite_exists(Sprite7) && sprite_exists(Sprite9))){	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
-	/// @DnDVersion : 1
-	/// @DnDHash : 46C597AE
-	/// @DnDParent : 75163B3F
-	/// @DnDArgument : "room" "End"
-	/// @DnDSaveInfo : "room" "End"
-	room_goto(End);}
+/// @DnDHash : 3389B6FA
+/// @DnDArgument : "code" "points = 0;$(13_10)$(13_10)$(13_10)if(!(sprite_exists(enemie1) &&  sprite_exists(enemie2) && sprite_exists(Sprite7) && sprite_exists(Sprite9)))$(13_10){$(13_10)	room_goto(End);$(13_10)}$(13_10)$(13_10)alarm[0]=60;$(13_10)alarm[1]=240;"
+points = 0;
+
+
+if(!(sprite_exists(enemie1) &&  sprite_exists(enemie2) && sprite_exists(Sprite7) && sprite_exists(Sprite9)))
+{
+	room_goto(End);
+}
+
+alarm[0]=60;
+alarm[1]=240;

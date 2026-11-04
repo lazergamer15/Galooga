@@ -1,7 +1,0 @@
-motion_set(0,0)
-alarm_set(5,-1)
-image_angle=0
-sprite_index = enemie2;
-image_index = 0;
-x = 320;
-y = 96;
