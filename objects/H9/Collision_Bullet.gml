@@ -30,5 +30,5 @@ variable = layer_sequence_create("Assets", x + 0, y + 0, destroy);
 
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1
-/// @DnDHash : 1ABDBAF5
+/// @DnDHash : 7AB0EE7C
 instance_destroy();

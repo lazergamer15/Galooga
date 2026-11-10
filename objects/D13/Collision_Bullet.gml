@@ -28,7 +28,22 @@ audio_play_sound(enemy_2_kill, 0, 0, 1.0, undefined, 1.0);
 /// @DnDSaveInfo : "sequenceid" "destroy"
 variable = layer_sequence_create("Assets", x + 0, y + 0, destroy);
 
-/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
-/// @DnDHash : 03EDE61A
-instance_destroy();
+/// @DnDHash : 29F1152A
+/// @DnDArgument : "expr" "D13"
+if(D13){	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 2F768C5F
+	/// @DnDParent : 29F1152A
+	instance_destroy();
+
+	/// @DnDAction : YoYo Games.Instances.Create_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 46FBD680
+	/// @DnDParent : 29F1152A
+	/// @DnDArgument : "xpos_relative" "1"
+	/// @DnDArgument : "ypos_relative" "1"
+	/// @DnDArgument : "objectid" "DA"
+	/// @DnDSaveInfo : "objectid" "DA"
+	instance_create_layer(x + 0, y + 0, "Instances", DA);}
