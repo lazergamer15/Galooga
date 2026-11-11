@@ -105,6 +105,8 @@
     {"id":{"name":"name_entry_2nd_5th","path":"sounds/name_entry_2nd_5th/name_entry_2nd_5th.yy",},},
     {"id":{"name":"name_entry_first","path":"sounds/name_entry_first/name_entry_first.yy",},},
     {"id":{"name":"Shoot","path":"sounds/Shoot/Shoot.yy",},},
+    {"id":{"name":"spit","path":"sounds/spit/spit.yy",},},
+    {"id":{"name":"spit2","path":"sounds/spit2/spit2.yy",},},
     {"id":{"name":"stage_flag","path":"sounds/stage_flag/stage_flag.yy",},},
     {"id":{"name":"Tractor_beam_capture","path":"sounds/Tractor_beam_capture/Tractor_beam_capture.yy",},},
     {"id":{"name":"tractor_beam","path":"sounds/tractor_beam/tractor_beam.yy",},},
