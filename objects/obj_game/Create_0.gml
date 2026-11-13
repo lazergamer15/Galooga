@@ -14,7 +14,7 @@ points = 0;
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 3389B6FA
-/// @DnDArgument : "code" "$(13_10)$(13_10)$(13_10)if(!(sprite_exists(enemie1) &&  sprite_exists(enemie2) && sprite_exists(Sprite7) && sprite_exists(Sprite9)))$(13_10){$(13_10)	room_goto(End);$(13_10)}$(13_10)$(13_10)alarm[0]=60;$(13_10)alarm[1]=240;$(13_10)alarm[2]=3600;"
+/// @DnDArgument : "code" "$(13_10)$(13_10)$(13_10)if(!(sprite_exists(enemie1) &&  sprite_exists(enemie2) && sprite_exists(Sprite7) && sprite_exists(Sprite9)))$(13_10){$(13_10)	room_goto(End);$(13_10)}$(13_10)$(13_10)alarm[0]=60;$(13_10)alarm[1]=240;$(13_10)alarm[2]=7200;"
 
 
 
@@ -25,4 +25,4 @@ if(!(sprite_exists(enemie1) &&  sprite_exists(enemie2) && sprite_exists(Sprite7)
 
 alarm[0]=60;
 alarm[1]=240;
-alarm[2]=3600;
+alarm[2]=7200;
